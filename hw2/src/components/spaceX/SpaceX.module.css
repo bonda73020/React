@@ -1,0 +1,27 @@
+#Task2{
+    margin: 2vh auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:3vh;
+    background: #c8c8ff;
+}
+#LaunchesContainer{
+    padding: 2vh 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.LaunchUnit{
+    width: 20vw;
+    padding: 2vh 3vw 1vh;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.68);
+    outline: #1f1f1f 2px solid;
+    margin: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,58 @@
+#Task1{
+    margin: 2vh auto;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top:3vh;
+    background: #c8c8ff;
+}
+#Task1>h1{
+    margin-bottom: 5vh;
+}
+
+#PostsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.PostUnit{
+    width: 20vw;
+    padding: 2vh 3vw 1vh;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.68);
+    outline: #1f1f1f 2px solid;
+    margin: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.PostUnit>h2{
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.postButton{
+    cursor: pointer;
+    padding: 1vh 2vw;
+    margin: 1vh 0;
+    font-size: 16pt;
+    background: cornflowerblue;
+    outline: #1f1f1f 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: .5s;
+}
+
+.postButton:hover{
+    background:radial-gradient(ellipse, #37548a,cornflowerblue);
+    color:white;
+    transform: translateY(-1vh);
+}
+
+
+.postBody{
+    font-weight: normal;
+    margin: 1vh 0;
+}

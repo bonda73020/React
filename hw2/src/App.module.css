@@ -1,0 +1,28 @@
+#wraper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#MainButtons{
+    display: flex;
+    padding-top: 4vh;
+}
+
+.TaskButton{
+    cursor: pointer;
+    padding: 1vh 2vw;
+    margin: 0 2vw;
+    font-size: 16pt;
+    background: cornflowerblue;
+    outline: #1f1f1f 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: .5s;
+}
+
+.TaskButton:hover{
+    background:radial-gradient(ellipse, #37548a,cornflowerblue);
+    color:white;
+    transform: translateY(-1vh);
+}
