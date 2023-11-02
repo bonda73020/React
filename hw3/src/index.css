@@ -9,3 +9,8 @@
 body{
   background: linear-gradient(90deg, #1f1f1f, #111111);
 }
+h1{
+  margin: 1vh auto;
+  text-align: center;
+  color:white;
+}

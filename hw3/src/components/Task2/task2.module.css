@@ -1,0 +1,15 @@
+.comment{
+    background: #e3ebff;
+    margin: 1vh 0;
+    padding: 2vh 2vw;
+}
+p#abz{
+    text-indent: 2em;
+}
+.User>p{
+    margin: .5vh 0;
+}
+
+form>input,form>button{
+    padding: 1vh 1vw;
+}

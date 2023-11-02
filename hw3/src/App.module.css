@@ -1,0 +1,32 @@
+#wrapper{
+ width: 90vw;
+    margin: 0 auto;
+}
+#buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin: 3vh auto;
+}
+.button{
+    font-size: 18pt;
+    background: cornflowerblue;
+    padding: 2vh 2vw;
+    margin: 1vh 1vw;
+    border-radius: 15px;
+    transition-duration: .5s;
+    cursor: pointer;
+    outline: cornflowerblue solid 2px;
+}
+
+#selected:hover,.button:hover{
+    background: radial-gradient(ellipse, #5d89da, #e3ebff);
+    transform: translateY(-1vh);
+}
+
+
+#selected{
+    transform: translateY(-.5vh);
+    background: radial-gradient(ellipse, #466bad, #b4cdff);
+    color:#b4cdff
+
+}
